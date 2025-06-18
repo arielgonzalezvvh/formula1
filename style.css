@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  outline: solid;
 
 
 
@@ -12,7 +12,6 @@
     
   font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(to bottom,#000000, #ffffffa2,#38383f); 
-    align-items: ;
   }
   
   .contenedor {
@@ -26,16 +25,20 @@
   background: linear-gradient(to bottom,#ffffffa2, #000000,#38383f); 
   color: white;
   padding: 20px;
+  width: 10px;
   overflow: hidden;
   transition: 1.3s ease; 
   transform: scale(1);
-  justify-content: center;
-  text-align: center;
     
   }
 
 
-
+  .nav:hover{
+    flex: 1;
+    width: px;
+    transform: scale(1);
+    width: 100px;  
+  }
 
     nav ul {
       list-style: none;
@@ -97,7 +100,7 @@
 
 
   .chinito{
-    height: 180px;
+    height: 250px;
     display: block;     
     margin-bottom: 20px;
     max-width: 200px;
@@ -121,6 +124,7 @@
   .contenido  {
   text-align: center;
   color: white;
+  flex: 5;
   margin-bottom: 20px;
   }
 
@@ -292,6 +296,3 @@ h1:hover {
   transition: all 0.5s ease;
   cursor: pointer;
   }
-
-
-
